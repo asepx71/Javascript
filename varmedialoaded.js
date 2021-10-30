@@ -1,0 +1,1 @@
+var media_loaded=function(e){e.className+=" shown",e.classList.remove("blur-up")};deferimg("img.lazyload",80,"lazied",media_loaded),"undefined"!=typeof infinite_scroll&&infinite_scroll.on("load",function(){deferimg("img.lazyload",80,"lazied",media_loaded)});var scroll=new SmoothScroll('a[href*="#"]',{speed:600,speedAsDuration:!0,easing:"easeInOutCubic"});
