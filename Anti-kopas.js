@@ -6,4 +6,4 @@ else{
 document.onmousedown=new Function ("return false");
 document.onmouseup=new Function ("return true");
 }
-</script >
+</script>
